@@ -649,34 +649,310 @@
         <div class="container">
             <h2 class="section-title">Top <span>Destinations</span></h2>
             <div class="destination-grid">
-                <div class="destination-card">
+                <div class="destination-card" data-destination="manali">
                     <img src="https://images.unsplash.com/photo-1566552881560-0be862a7c445?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="Manali" class="destination-img">
                     <div class="destination-content">
                         <h3>Manali</h3>
                         <p>Experience the beauty of the Himalayas with our comfortable buses.</p>
-                        <a href="#" class="btn">View Packages</a>
+                        <a href="#" class="btn view-packages">View Packages</a>
                     </div>
                 </div>
-                <div class="destination-card">
+                <div class="destination-card" data-destination="goa">
                     <img src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="Goa" class="destination-img">
                     <div class="destination-content">
                         <h3>Goa</h3>
                         <p>Enjoy the sun, sand and sea with our exclusive Goa packages.</p>
-                        <a href="#" class="btn">View Packages</a>
+                        <a href="#" class="btn view-packages">View Packages</a>
                     </div>
                 </div>
-                <div class="destination-card">
+                <div class="destination-card" data-destination="rishikesh">
                     <img src="https://images.unsplash.com/photo-1588416499018-d8c621b1b3cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="Rishikesh" class="destination-img">
                     <div class="destination-content">
                         <h3>Rishikesh</h3>
                         <p>Find your inner peace with our spiritual tour packages.</p>
-                       <a href="#packages" class="btn">View Packages</a>
+                        <a href="#" class="btn view-packages">View Packages</a>
                     </div>
                 </div>
             </div>
         </div>
     </section>
-
+    <!-- Destination Modals -->
+    <div id="manali-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="destination-header">
+                <h2>Manali - Paradise in the Himalayas</h2>
+                <p>Nestled in the mountains of Himachal Pradesh, Manali is one of India's most popular hill stations.</p>
+            </div>
+            
+            <div class="destination-gallery">
+                <img src="https://images.unsplash.com/photo-1566552881560-0be862a7c445?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="Manali Valley" class="gallery-img">
+                <img src="https://images.unsplash.com/photo-1587477704624-2d27356f10ba?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="Snow in Manali" class="gallery-img">
+                <img src="https://images.unsplash.com/photo-1580548254596-1efd3777f5ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="Manali Mountains" class="gallery-img">
+                <img src="https://images.unsplash.com/photo-1580548254596-1efd3777f5ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="Manali River" class="gallery-img">
+                <img src="https://images.unsplash.com/photo-1580548254596-1efd3777f5ef?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="Manali Town" class="gallery-img">
+            </div>
+            
+            <div class="destination-details">
+                <div class="detail-card">
+                    <h3><i class="fas fa-map-marker-alt"></i> About Manali</h3>
+                    <p>Manali is a high-altitude Himalayan resort town in India's northern Himachal Pradesh state. It has a reputation as a backpacking center and honeymoon destination. It's a gateway for skiing in the Solang Valley and trekking in Parvati Valley. It's also a jumping-off point for paragliding, rafting and mountaineering in the Pir Panjal mountains.</p>
+                </div>
+                
+                <div class="detail-card">
+                    <h3><i class="fas fa-clock"></i> Best Time to Visit</h3>
+                    <p>October to June is the best time to visit Manali. The weather is pleasant and ideal for adventure activities. December to February is perfect for snow lovers.</p>
+                </div>
+                
+                <div class="detail-card">
+                    <h3><i class="fas fa-mountain"></i> Key Attractions</h3>
+                    <ul class="package-features">
+                        <li>Solang Valley - Adventure sports</li>
+                        <li>Hidimba Devi Temple - Ancient cave temple</li>
+                        <li>Rohtang Pass - Spectacular mountain views</li>
+                        <li>Old Manali - Charming village area</li>
+                        <li>Jogini Waterfall - Beautiful natural waterfall</li>
+                    </ul>
+                </div>
+                
+                <div class="detail-card">
+                    <h3><i class="fas fa-bus"></i> Travel Information</h3>
+                    <p>Distance from Delhi: 540 km<br>
+                    Journey Time by Bus: 12-14 hours<br>
+                    Best For: Honeymooners, adventure enthusiasts, nature lovers</p>
+                </div>
+            </div>
+            
+            <div class="packages-container">
+                <h3>Popular Packages for Manali</h3>
+                <div class="package-cards">
+                    <div class="package-card">
+                        <h4>Manali Romantic Getaway</h4>
+                        <p>3 Days / 2 Nights</p>
+                        <div class="package-price">₹8,499 per person</div>
+                        <ul class="package-features">
+                            <li>Comfortable AC accommodation</li>
+                            <li>Welcome drink on arrival</li>
+                            <li>Sightseeing tour</li>
+                            <li>Candlelight dinner</li>
+                        </ul>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                    
+                    <div class="package-card">
+                        <h4>Manali Adventure Tour</h4>
+                        <p>5 Days / 4 Nights</p>
+                        <div class="package-price">₹12,999 per person</div>
+                        <ul class="package-features">
+                            <li>Adventure activities included</li>
+                            <li>Expert guides</li>
+                            <li>All equipment provided</li>
+                            <li>Comfortable lodging</li>
+                        </ul>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                    
+                    <div class="package-card">
+                        <h4>Manali Family Package</h4>
+                        <p>4 Days / 3 Nights</p>
+                        <div class="package-price">₹10,499 per person</div>
+                        <ul class="package-features">
+                            <li>Family-friendly activities</li>
+                            <li>Spacious rooms</li>
+                            <li>Kid-friendly meals</li>
+                            <li>Safe and comfortable travel</li>
+                        </ul>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="goa-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="destination-header">
+                <h2>Goa - Beaches, Sun and Fun</h2>
+                <p>India's party capital with beautiful beaches, Portuguese heritage, and vibrant nightlife.</p>
+            </div>
+            
+            <div class="destination-gallery">
+                <img src="https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="Goa Beach" class="gallery-img">
+                <img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="Goa Sunset" class="gallery-img">
+                <img src="https://images.unsplash.com/photo-1506970840772-503770eb8f51?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="Goa Church" class="gallery-img">
+                <img src="https://images.unsplash.com/photo-1566552881560-0be862a7c445?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="Goa Food" class="gallery-img">
+                <img src="https://images.unsplash.com/photo-1566552881560-0be862a7c445?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="Goa Nightlife" class="gallery-img">
+            </div>
+            
+            <div class="destination-details">
+                <div class="detail-card">
+                    <h3><i class="fas fa-map-marker-alt"></i> About Goa</h3>
+                    <p>Goa is India's smallest state and known for its endless beaches, stellar nightlife, eclectic seafood, world-heritage listed architecture. Spread along the west coast of India, Goa was a Portuguese colony until 1961, which explains the strong Mediterranean influence in the architecture and culture.</p>
+                </div>
+                
+                <div class="detail-card">
+                    <h3><i class="fas fa-clock"></i> Best Time to Visit</h3>
+                    <p>October to March is the best time to visit Goa when the weather is pleasant and perfect for beach activities. The monsoon season from June to September offers lush green landscapes.</p>
+                </div>
+                
+                <div class="detail-card">
+                    <h3><i class="fas fa-umbrella-beach"></i> Key Attractions</h3>
+                    <ul class="package-features">
+                        <li>Calangute Beach - Queen of beaches</li>
+                        <li>Basilica of Bom Jesus - UNESCO World Heritage Site</li>
+                        <li>Dudhsagar Falls - Magnificent waterfall</li>
+                        <li>Anjuna Flea Market - Shopping paradise</li>
+                        <li>Fort Aguada - 17th-century Portuguese fort</li>
+                    </ul>
+                </div>
+                
+                <div class="detail-card">
+                    <h3><i class="fas fa-bus"></i> Travel Information</h3>
+                    <p>Distance from Mumbai: 600 km<br>
+                    Journey Time by Bus: 12 hours<br>
+                    Best For: Beach lovers, party enthusiasts, couples</p>
+                </div>
+            </div>
+            
+            <div class="packages-container">
+                <h3>Popular Packages for Goa</h3>
+                <div class="package-cards">
+                    <div class="package-card">
+                        <h4>Goa Beach Paradise</h4>
+                        <p>4 Days / 3 Nights</p>
+                        <div class="package-price">₹7,999 per person</div>
+                        <ul class="package-features">
+                            <li>Beachfront accommodation</li>
+                            <li>Welcome drink</li>
+                            <li>Island cruise</li>
+                            <li>Beach activities</li>
+                        </ul>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                    
+                    <div class="package-card">
+                        <h4>Goa Heritage Tour</h4>
+                        <p>5 Days / 4 Nights</p>
+                        <div class="package-price">₹9,499 per person</div>
+                        <ul class="package-features">
+                            <li>Heritage hotel stay</li>
+                            <li>Guided heritage walks</li>
+                            <li>Cultural shows</li>
+                            <li>Local cuisine experience</li>
+                        </ul>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                    
+                    <div class="package-card">
+                        <h4>Goa Party Package</h4>
+                        <p>3 Days / 2 Nights</p>
+                        <div class="package-price">₹6,499 per person</div>
+                        <ul class="package-features">
+                            <li>Club entries included</li>
+                            <li>Beach parties</li>
+                            <li>Pub crawls</li>
+                            <li>Nightlife experience</li>
+                        </ul>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="rishikesh-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div class="destination-header">
+                <h2>Rishikesh - Yoga Capital of the World</h2>
+                <p>Nestled in the foothills of the Himalayas, Rishikesh is a spiritual center on the banks of the Ganges River.</p>
+            </div>
+            
+            <div class="destination-gallery">
+                <img src="https://images.unsplash.com/photo-1588416499018-d8c621b1b3cf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="Rishikesh Ganges" class="gallery-img">
+                <img src="https://images.unsplash.com/photo-1599638157172-8b5ef6b22c4e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="Rishikesh Adventure" class="gallery-img">
+                <img src="https://images.unsplash.com/photo-1605559424843-9e4c228bf1c2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="Rishikesh Yoga" class="gallery-img">
+                <img src="https://images.unsplash.com/photo-1566552881560-0be862a7c445?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="Rishikesh Temple" class="gallery-img">
+                <img src="https://images.unsplash.com/photo-1566552881560-0be862a7c445?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80" alt="Rishikesh Bridge" class="gallery-img">
+            </div>
+            
+            <div class="destination-details">
+                <div class="detail-card">
+                    <h3><i class="fas fa-map-marker-alt"></i> About Rishikesh</h3>
+                    <p>Rishikesh is a city in India's northern state of Uttarakhand, in the Himalayan foothills beside the Ganges River. The river is considered holy, and the city is renowned as a center for studying yoga and meditation. Temples and ashrams (centers for spiritual studies) line the eastern bank around Swarg Ashram, a traffic-free, alcohol-free and vegetarian enclave upstream from Rishikesh town.</p>
+                </div>
+                
+                <div class="detail-card">
+                    <h3><i class="fas fa-clock"></i> Best Time to Visit</h3>
+                    <p>September to November and February to May are the best times to visit Rishikesh. The weather is pleasant for outdoor activities and spiritual practices.</p>
+                </div>
+                
+                <div class="detail-card">
+                    <h3><i class="fas fa-om"></i> Key Attractions</h3>
+                    <ul class="package-features">
+                        <li>Lakshman Jhula - Iconic suspension bridge</li>
+                        <li>Triveni Ghat - Sacred bathing spot</li>
+                        <li>Beatles Ashram - Where Beatles meditated</li>
+                        <li>Neelkanth Mahadev Temple - Sacred temple</li>
+                        <li>White water rafting - Adventure activity</li>
+                    </ul>
+                </div>
+                
+                <div class="detail-card">
+                    <h3><i class="fas fa-bus"></i> Travel Information</h3>
+                    <p>Distance from Delhi: 230 km<br>
+                    Journey Time by Bus: 6-7 hours<br>
+                    Best For: Spiritual seekers, adventure enthusiasts, yoga practitioners</p>
+                </div>
+            </div>
+            
+            <div class="packages-container">
+                <h3>Popular Packages for Rishikesh</h3>
+                <div class="package-cards">
+                    <div class="package-card">
+                        <h4>Rishikesh Spiritual Retreat</h4>
+                        <p>4 Days / 3 Nights</p>
+                        <div class="package-price">₹6,499 per person</div>
+                        <ul class="package-features">
+                            <li>Ashram accommodation</li>
+                            <li>Daily yoga and meditation</li>
+                            <li>Spiritual guidance</li>
+                            <li>Ayurvedic meals</li>
+                        </ul>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                    
+                    <div class="package-card">
+                        <h4>Rishikesh Adventure Package</h4>
+                        <p>3 Days / 2 Nights</p>
+                        <div class="package-price">₹5,999 per person</div>
+                        <ul class="package-features">
+                            <li>White water rafting</li>
+                            <li>Camping by the Ganges</li>
+                            <li>Rock climbing</li>
+                            <li>Bungee jumping</li>
+                        </ul>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                    
+                    <div class="package-card">
+                        <h4>Rishikesh Family Tour</h4>
+                        <p>5 Days / 4 Nights</p>
+                        <div class="package-price">₹8,499 per person</div>
+                        <ul class="package-features">
+                            <li>Family-friendly activities</li>
+                            <li>Comfortable accommodation</li>
+                            <li>Sightseeing tours</li>
+                            <li>Cultural experiences</li>
+                        </ul>
+                        <a href="#" class="btn">Book Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
     <!-- Packages Section -->
    <section class="section packages" id="packages">
         <div class="container">
